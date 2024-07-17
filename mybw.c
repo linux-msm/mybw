@@ -86,7 +86,7 @@ int main()
 {
 	int i;
 
-	for (i = 2048; i <= 64 * 1024 * 1024; i <<= 1)
+	for (i = 2048; i <= 1024ULL * 1024 * 1024; i <<= 1)
 		measure(i);
 
 	return 0;
